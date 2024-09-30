@@ -1,0 +1,19 @@
+Create a product management system that allows admins to add, view, update, and delete products. The system should use Hibernate 4.3.1 (or higher)
+framework for database interactions.
+TASKS:
+1) Create a database table and an entity class named Product with attributes id (as the primary key), brand, description and price. Add the
+   necessary Hibernate annotations. You will also need to justify the data type for each listed attribute.
+2) Create another table and an entity class named User with attributes email (as the primary key), full_name, role (admin or client) and password. Add the necessary
+Hibernate annotations. You will also need to justify the data type for each listed
+attribute.
+3) Configure Hibernate in your project using hibernate.cfg.xml.
+4) Develop a homepage that incorporates an Admin login module and provides an
+overview of your product management system. Feel free to include any background
+photos to enhance the design.
+5) Create a servlet to handle HTTP requests for managing products:
+a. Implement a form to add new products.
+b. Display a list of existing products.
+c. Implement the ability to edit product details.
+d. Implement the ability to delete products.
+6) Create a JSP (JavaServer Pages) page to interact with the servlet and display product
+information.
